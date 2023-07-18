@@ -1,7 +1,7 @@
 # SMS-based Android App for Real-time Water Level Monitoring
 
 This is an Android application that allows users to monitor the real-time water level in a tank via SMS. 
-The app interacts with a hardware module attached to the tank, which measures the water level and communicates the data to the Android device sms.
+The app interacts with a hardware module attached to the tank, which measures the water level and communicates the data to the Android device via sms.
 
 
 ## Features
