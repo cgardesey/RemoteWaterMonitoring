@@ -36,7 +36,7 @@ You may need to update these values in the `build.gradle` file based on your pro
 2. Connect your Android device to your computer via USB.
 3. Build and run the app on your Android device.
    
-If you're looking to integrate with arduino project, make sure to check out the the repository corresponding to the [ariduino firmware](https://github.com/cgardesey/smart_security_firmware) for detailed instructions.
+If you're looking to integrate with arduino project, make sure to check out the the repository corresponding to the [ariduino firmware](https://github.com/cgardesey/remote_water_level_measurement_firmware) for detailed instructions.
 
 ## License
 
