@@ -1,15 +1,12 @@
 # SMS-based Android App for Real-time Water Level Monitoring
 
-This is an Android application that allows users to monitor the real-time water level in a tank via SMS. 
-The app interacts with a hardware module attached to the tank, which measures the water level and communicates the data to the Android device via sms.
-
+This Android application allows users to monitor real-time water level data retrieved from an embedded system hardware. The hardware sends water level information to a Node.js backend server, which is then saved to a database. The Android app connects to the backend server using a socket connection to display real-time water level updates.
 
 ## Features
 
-This project includes the following features:
-
-- Real-time monitoring of water level in a tank
-- User-friendly interface for viewing graph of water consumption history
+- **Real-time Monitoring:** View live water level updates from the embedded system hardware in real-time.
+- **Historical Data:** Access historical water level data stored in the database for analysis and trends.
+- **User-Friendly Interface:** Intuitive and easy-to-use interface for seamless user experience.
 
 ## Getting Started
 
@@ -35,8 +32,10 @@ You may need to update these values in the `build.gradle` file based on your pro
 1. Open the project in Android Studio.
 2. Connect your Android device to your computer via USB.
 3. Build and run the app on your Android device.
-   
+
 If you're looking to integrate with arduino project, make sure to check out the the repository corresponding to the [ariduino firmware](https://github.com/cgardesey/remote_water_level_measurement_firmware) for detailed instructions.
+
+If you're looking to integrate with the node.js backend, make sure to check out the the repository corresponding to the [backend](https://github.com/cgardesey/remote_water_level_measurement_firmware) for detailed instructions.
 
 ## License
 
